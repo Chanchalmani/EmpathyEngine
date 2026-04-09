@@ -32,7 +32,7 @@ The Empathy Engine dynamically modulates the vocal characteristics of synthesize
 - `pip` (Python package manager)
 - A stable internet connection (first run downloads the SLM model and TTS voices are streamed)
 
-### 1. Clone the Repository
+### USAGE
 
 ```bash
     git clone https://github.com/yourusername/empathy-engine.git
@@ -41,4 +41,7 @@ The Empathy Engine dynamically modulates the vocal characteristics of synthesize
     .\venv\Scripts\Activate.ps1
     pip install -r requirements.txt
     python web_app.py
-    Open your browser to http://127.0.0.1:7860.
+```
+
+### Visibility
+- Open your browser to http://127.0.0.1:7860.
