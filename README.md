@@ -41,4 +41,4 @@ The Empathy Engine dynamically modulates the vocal characteristics of synthesize
 ```
 
 ### Visibility
-- Open your browser to http://127.0.0.1:7860.
+- Open your browser at http://127.0.0.1:7860.
