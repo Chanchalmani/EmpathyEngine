@@ -1,29 +1,26 @@
-# 🧠 The Empathy Engine 
+# The Empathy Engine 
 
 The Empathy Engine dynamically modulates the vocal characteristics of synthesized speech based on the detected emotion of the input text. It leverages a **Small Language Model (SLM)** for nuanced emotion detection and **Microsoft Edge TTS** with **SSML** to produce expressive, natural‑sounding audio.
 
 ---
 
-## 🎯 Features
+## Features
 
-- **🧠 Advanced Emotion Detection**  
+- **Advanced Emotion Detection**  
   Uses [`the-robot-ai/tiny-emotion`](https://huggingface.co/the-robot-ai/tiny-emotion), a lightweight SLM fine‑tuned for emotion classification. Detects `joy`, `sadness`, `anger`, `surprise`, `fear`, and `neutral`.
 
-- **🗣️ Natural Voice Synthesis**  
-  Powered by `edge‑tts`, a free, high‑quality TTS library that uses Microsoft's neural voices.
-
-- **🎚️ Dynamic Voice Modulation via SSML**  
+- **Dynamic Voice Modulation via SSML**  
   Emotion → SSML mapping alters:
   - **Rate** (speaking speed)
   - **Pitch** (tonal height)
 
-- **🌐 Web Interface (Gradio)**  
+- **Web Interface (Gradio)**  
   Interactive UI for instant text‑to‑empathetic‑speech conversion.
 
-- **💻 Command‑Line Interface**  
+- **Command‑Line Interface**  
   Run the engine directly from the terminal.
 
-- **⚡ Fully Offline & Free**  
+- **Fully Offline & Free**  
   No API keys required. The SLM and TTS run locally or via free public endpoints.
 
 ### Prerequisites
