@@ -27,7 +27,7 @@ The Empathy Engine dynamically modulates the vocal characteristics of synthesize
 
 - **Python 3.9 – 3.11** (3.12 works but may have minor dependency issues)
 - `pip` (Python package manager)
-- A stable internet connection (first run downloads the SLM model and TTS voices are streamed)
+
 
 ### USAGE
 
